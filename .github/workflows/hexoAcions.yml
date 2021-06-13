@@ -23,6 +23,10 @@ jobs:
           ssh-keyscan github.com >> ~/.ssh/known_hosts
           git config --global user.name "bell881122"
           git config --global user.email "bell881122@gmail.com"
+    - name: Update themes
+      run: |
+        git submodule init
+        git submodule update
     - name: A)npm install
       run: |
         npm install
