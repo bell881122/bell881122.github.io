@@ -7,8 +7,8 @@
 #   name: link || icon
 
 menu:
-  # home: / || fas fa-home
-  # archives: /archives/ || fas fa-archive
+  # Home: / || fas fa-home
+  # Archives: /archives/ || fas fa-archive
   # Tags: /tags/ || fas fa-tags
   # Categories: /categories/ || fas fa-folder-open
   # List||fas fa-list:
@@ -507,7 +507,7 @@ tag_ui: # 留空或 index
 background:
 
 # Footer Background
-footer_bg: '#26a69a'
+footer_bg: false
 
 # the position of bottom right button/default unit: px (右下角按鈕距離底部的距離/默認單位為px)
 rightside-bottom:
@@ -587,7 +587,7 @@ beautify:
 # Global font settings
 # Don't modify the following settings unless you know how they work (非必要不要修改)
 font:
-  global-font-size: 16px
+  global-font-size: 18px
   code-font-size:
   font-family:
   code-font-family:
